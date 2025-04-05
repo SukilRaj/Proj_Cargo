@@ -1,0 +1,121 @@
+html, body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* pure black background */
+  color: #fff;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  background-color: #222; /* darker header background */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #111; /* darker main background */
+  color: #fff;
+  min-height: 80vh;
+}
+
+.container {
+  background-color: #222; /* darker container background */
+  color: #fff;
+  padding: 20px;
+  border: 1px solid #333;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 90%;
+  max-width: 800px;
+  border-radius: 5px;
+}
+
+h2 {
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 5px;
+  display: block;
+  color: #ccc;
+  text-align: center;
+  width: 100%;
+}
+
+input[type="text"], input[type="number"], input[type="date"] {
+  width: 80%;
+  height: 40px;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  background-color: #333;
+  color: #fff;
+  border-radius: 3px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+input[type="submit"] {
+  width: 200px;
+  height: 40px;
+  background-color: #444; /* darker button background */
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px auto; /* center the button */
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: #222;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+tr:hover {
+  background-color: #2a2a2a;
+}
+
+footer {
+  background-color: #222;
+  color: #999;
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid #333;
+}
